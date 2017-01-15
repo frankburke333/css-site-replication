@@ -1,0 +1,96 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  background: #fff url("../images/bgtile.png") repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.main {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 180px;
+  width: 900px
+
+}
+
+.content {
+  width: 480px;
+  float: right;
+}
+
+.blurb {
+  background: url("../images/frame.png") no-repeat;
+  min-height: 250px;
+  position: relative;
+  font-family: Helvetica;
+
+}
+
+h2 {
+  color: #06365f;
+  margin-left: 12px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding-top: 9px;
+
+}
+
+.one {
+
+  position: absolute;
+  font-size: 16px;
+  margin-left: 12px;
+  top:72px;
+}
+
+.two {
+
+  position: absolute;
+  font-size: 16px;
+  margin-left: 12px;
+  top:125px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+.app {
+  margin-left: 12px;
+}
+
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+  color: #1c5380;
+
+}
+
+li a {
+  text-decoration: none;
+  color: #1c5380;
+  font-family: Helvetica;
+}
+
+.copy a {
+  color: rgba(128, 128, 128, 0.65);
+  font-family: Helvetica;
+}
+
+.home {
+  float: right;
+  margin-top: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #587d9c;
+  padding: 10px;
+  border-radius: 3px;
+}
